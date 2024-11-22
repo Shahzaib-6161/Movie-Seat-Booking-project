@@ -1,0 +1,30 @@
+    /* All Seat styles */
+    .seat {
+        width: 30px;
+        height: 20px;
+        margin: 5px;
+        cursor: pointer;
+        transition: transform 0.2s;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .seat:hover {
+        transform: scale(1.2);
+    }
+  
+    .seat.available {
+        background-color: #9CA3AF; 
+    }
+    .seat.selected {
+        background-color: #00FFFF; 
+    }
+    .seat.occupied {
+        background-color: #FFFFFF; 
+        pointer-events: none;
+    }
+    .cyan-text {
+        color: cyan
+    }
+    
